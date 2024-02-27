@@ -1,0 +1,48 @@
+# Menulis ke file hello.txt
+file = open("hello.txt", "w")
+file.write("Sekarang kita belajar menulis dengan menggunakan Python")
+file.write("Menulis konten file dengan mode w (write).")
+file.close()
+
+# Menulis ke file dengan mode append
+file = open("hello.txt", "a")
+file.writelines([
+"Sekarang kita belajar menulis dengan menggunakan Python", 
+"Menulis konten file dengan mode a (append)."
+])
+file.close()
+
+'''file = open("hello.txt","w"): Baris ini membuka file dengan nama "hello.txt" dalam mode penulisan ("w"), yang berarti file akan dibuka untuk ditulis. Jika file sudah ada sebelumnya, kontennya akan ditimpa. Jika tidak, file baru akan dibuat. File yang terbuka akan diidentifikasi oleh variabel file.
+
+file.writelines(["Halo\n", "Belajar Python\n", "Menyenangkan!\n"]): Ini adalah perintah untuk menulis beberapa baris teks ke dalam file yang telah dibuka sebelumnya. Metode writelines() digunakan untuk menulis beberapa baris sekaligus. Dalam hal ini, daftar string yang berisi beberapa baris teks ("Halo\n", "Belajar Python\n", "Menyenangkan!\n") disediakan sebagai argumen. Setiap elemen dalam daftar akan ditulis ke file.
+
+file.close(): Ini adalah perintah untuk menutup file setelah selesai ditulis. Ini penting untuk menghindari kebocoran sumber daya dan memastikan bahwa semua perubahan telah disimpan.
+
+file = open("hello.txt","r"): Baris ini membuka file "hello.txt" kembali, tetapi kali ini dalam mode baca ("r"). Dengan demikian, file akan dibuka untuk dibaca. File yang terbuka kembali akan diidentifikasi oleh variabel file.
+
+for line in file:: Ini adalah loop for yang digunakan untuk membaca file baris demi baris. Ini akan mengiterasi melalui setiap baris dalam file.
+
+print(line): Perintah ini mencetak setiap baris yang dibaca dari file.
+
+break: Ini adalah perintah untuk keluar dari loop setelah mencetak baris pertama dari file. Karena ini ditambahkan setelah print(line), loop hanya akan berjalan sekali, mencetak baris pertama, dan kemudian berakhir.
+
+Jadi, keseluruhan tujuan dari kode ini adalah untuk menulis beberapa baris teks ke dalam file "hello.txt", kemudian membuka file tersebut kembali untuk dibaca, dan mencetak baris pertama dari file tersebut.'''
+
+file = open("hello.txt","w")
+file.writelines(["Halo\n", "Belajar Python\n", "Menyenangkan!\n"])
+file.close()
+file = open("hello.txt","r")
+for line in file:
+    print(line)
+    break
+
+file = open("hello.txt","w")
+file.writelines(["Halo", "Belajar Python", "Menyenangkan!"])
+file.close()
+file = open("hello.txt","w")
+file.writelines(["Menulis ke dalam file\n"])
+file.writelines(["menggunakan Python"])
+file = open("hello.txt","r")
+for line in file:
+    print(line)
+#"Menulis ke dalam file" dan "menggunakan Python" secara baris per baris

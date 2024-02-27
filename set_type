@@ -1,0 +1,6 @@
+type_data_list = ['Dewi', 'Budi', 'Cici', 'Linda', 'Cici']
+print(type_data_list)
+type_data_set = {'Dewi', 'Budi', 'Cici', 'Linda', 'Cici'}
+print(type_data_set)
+type_data_frozenset = ({'Dewi', 'Budi', 'Cici', 'Linda', 'Cici'})
+print(type_data_frozenset)

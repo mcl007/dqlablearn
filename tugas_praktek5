@@ -1,0 +1,16 @@
+shoes = {'name' : 'Nike', 'price': 250000, 'discount' : 50000}
+cloth = {'name' : 'uniqlo', 'price': 150000, 'discount' : 30000}
+pants = {'name' : 'levis', 'price': 200000, 'discount' : 60000}
+
+#cara 1
+price = shoes['price'] + cloth['price'] + pants['price']
+total_discount = shoes['discount'] + cloth['discount'] + pants['discount']
+total_price = (price - total_discount) * 1.1
+print(total_price)
+
+#cara 2
+price_shoes = shoes['price'] - shoes['discount']
+price_cloth = cloth['price'] - cloth['discount']
+price_pants = pants['price'] - pants['discount']
+pay_price = (price_shoes + price_cloth + price_pants) * 1.1
+print(pay_price)

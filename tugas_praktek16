@@ -1,0 +1,37 @@
+#fitur .index()
+print(">>> .index()")
+list_score = ['Budi', 'Doni', 'Budi', 'Doni', 'Doni', 'Doni']
+score_first_sud = list_score.index('Doni') + 1
+print(score_first_sud) #will show output 2
+
+#fitur .insert()
+print(">>> Fitur .insert()")
+list_score1 = ['Budi', 'Doni', 'Budi', 'Budi']
+list_score1.insert(2, 'Budi')
+print(list_score1)
+
+#fitur .pop()
+print(">>> .pop()")
+list_menu = ['Seblak', 'Basreng', 'Kripik Singkong', 'Bakso']
+list_menu.pop()
+print(list_menu)
+
+#fitur .remove()
+print(">>> .remove()")
+list_menu2 = ['Seblak', 'Basreng', 'Mie Ayam', 'Bakso']
+list_menu2.remove('Seblak')
+print(list_menu2)
+
+#fitur .reverse()
+print(">>> .reverse()")
+list_menu3 = ['Es Campur', 'Es Doger', 'Es Boba', 'Es kelapa']
+list_menu3.reverse()
+print(list_menu3)
+
+#fitur .sort()
+print(">>> .sort")
+list_menu4 = ['Salome', 'Sanggar', 'Tahu Bakso', 'Kentang Goreng']
+list_menu4.sort()
+print(list_menu4)
+list_menu4.sort(reverse=True)
+print(list_menu4)

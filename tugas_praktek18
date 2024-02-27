@@ -1,0 +1,41 @@
+#fitur .add()
+print(">>> .add()")
+set_fruit = {'orange', 'Apple', 'Grape'}
+set_fruit.add('Melon')
+print(set_fruit)
+
+#fitur .clear()
+print(">>> .clear()")
+set_fruit1 = {'Orange', 'Apple', 'Grape'}
+set_fruit1.clear()
+print(set_fruit1)
+
+#fitur .copy()
+print(">>> .copy()")
+set_fruit2 = {'Orange', 'Apple', 'Grape'}
+set_fruit3 = set_fruit2
+set_fruit4 = set_fruit2.copy()
+set_fruit3.add('Melon')
+set_fruit4.add('Star Fruit')
+print(set_fruit3)
+print(set_fruit4)
+
+#fitur .pop()
+print(">>> .pop()")
+parcel = {'Orange', 'Apple', 'Grape'}
+parcel.pop()
+print(parcel)
+
+#fitur .update()
+print(">>> .update()")
+parcel1 = {'Orange', 'Apple', 'Grape'}
+parcel2 = {'Star Fruit', 'Kiwi', 'Durian'}
+parcel1.update(parcel2)
+print(parcel1)
+
+#fitur .remove()
+print(">>> .remove()")
+parcel3 = {'Orange', 'Kiwi', 'Lemon'}
+parcel3.remove('Lemon')
+print(parcel3)
+

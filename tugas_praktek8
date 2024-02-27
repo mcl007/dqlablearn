@@ -1,0 +1,15 @@
+#python while loops part3
+bill = [50000, 75000, -150000, 125000, 300000, -50000, 200000]
+i = 0
+amount_bill = len(bill)
+total_bill = 0
+while i < amount_bill:
+    '''Jika terdapat tagihan ke -i yang bernilai minus (dibawah nol)
+    abaikan tagihan ke -i dan lanjutkan ke nilai berikutnya'''
+    if bill[i] < 0:
+        i += 1
+        continue
+    total_bill += bill[i]
+    i += 1
+print(total_bill)
+        

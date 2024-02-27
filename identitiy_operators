@@ -1,0 +1,19 @@
+x = ['Mike', 'Rini']
+y = ['Mike', 'Rini']
+a = x
+b = y
+print(a is x)
+print(a is y)
+print(a is not x)
+print(a is not y)
+print(b is x)
+print(b is y)
+print(b is not x)
+print(b is not y)
+
+xl = 10
+print(type(xl) is int)
+
+xl /= 3
+print(type(xl) is int)
+

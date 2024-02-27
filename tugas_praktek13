@@ -1,0 +1,28 @@
+#ekspedisi pamanku
+traveling_expenses = 1500000
+number_of_days = 31
+list_plat_number = [8993, 2198, 2501, 2735, 3772, 4837, 9152]
+''' Pengecekan kendaraan dengan nomor plat ganjil atau genap
+    deklarasikan kendaraan genap dan kendaraan ganjil'''
+vehicle_complete = 0
+vehicle_odd = 0
+for plat_number in list_plat_number:
+    if plat_number % 2 == 0:
+        vehicle_complete += 1
+    else:
+        vehicle_odd += 1
+        
+'''total pengeluaran untuk kendaraan dengan pelat ganjil
+    dan genap dalam 1 bulan'''
+i = 1
+total_expense = 0
+while i <= number_of_days:
+    if i % 2 == 0:
+        total_expense += (vehicle_complete * traveling_expenses)
+    else:
+        total_expense += (vehicle_odd * traveling_expenses)
+print(total_expense)
+        
+        
+        
+

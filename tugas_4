@@ -1,0 +1,19 @@
+#tugas if statement 
+name_client = 'Jhon'
+clock = 17
+warehouseing = {'price_day' : 1000000, 'days' : 15}
+cleansing = {'price_day' : 1500000, 'days': 10}
+Integration = {'price_day' : 2000000, 'days' : 15}
+Transformation = {'price_day' : 2500000, 'days' : 10}
+total = (warehouseing['price_day'] * warehouseing['days']) + (cleansing['price_day'] * cleansing['days']) + (Integration['price_day'] * Integration['days']) + (Transformation['price_day'] * Transformation['days'])
+print('bill for mr :') 
+print(name_client)
+if clock > 19:
+    print('good night, you must pay bill amount:')
+elif clock > 17:
+    print('good evening')
+elif clock > 12:
+    print('good afternoon')
+else:
+    print('good morning')
+print(total)

@@ -1,0 +1,14 @@
+#python while loops part2
+bill = [50000, 75000, -150000, 125000, 300000, -50000, 200000]
+i = 0 
+amount_bill = len(bill)
+total_bill = 0
+while i < amount_bill: 
+    if bill[i] < 0:
+        total_bill = -1
+        print('there is minus number inside a bill, count stop!')
+        break
+    total_bill += bill[i]
+    i += 1
+print(total_bill)
+    

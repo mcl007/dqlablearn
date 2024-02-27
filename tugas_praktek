@@ -1,0 +1,8 @@
+#Dqlab Task 1
+'''Deklarasi variable number1 with 20,  and number2 with 10 and showing
+result minus number1 and number2'''
+
+number1 = 20
+number2 = 10
+print(number1 - number2)
+

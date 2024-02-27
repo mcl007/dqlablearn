@@ -1,0 +1,6 @@
+example_list = [1, 'dua', 3, 4.0, 5]
+print(example_list[0])
+print(example_list[3])
+example_list = [1, 'dua', 3, 4.0, 5]
+example_list[3] = 'empat'
+print(example_list[3])

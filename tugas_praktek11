@@ -1,0 +1,6 @@
+#python for loops part3
+list_region = ['Balikpapan','Samarinda','Tarakan']
+list_fruit = ['apel','jeruk','alpukat']
+for region in list_region:
+    for fruit in list_fruit:
+        print(fruit+" "+region)

@@ -1,0 +1,6 @@
+tuple_example = ('January', 'february', 'march', 'april')
+print(tuple_example[0])
+tuple_example = ('January', 'february', 'march', 'april')
+tuple_example[0] = 'December'
+
+#error beacuse tuple does not support item assignment

@@ -1,0 +1,10 @@
+shoes = {'name' : 'Niko Shoes', 'price': 150000, 'discount': 30000}
+cloth = {'name' : 'Unikloh Cloth', 'price' : 80000, 'discount': 8000}
+pants = {'name' : 'Levis', 'price': 200000, 'discount':60000}
+list_shop = [shoes, cloth, pants]
+shoes_price = (150000 - 30000)
+cloth_price = (80000 - 8000)
+pants_price = (200000 - 60000) 
+total_price = (shoes_price + cloth_price + pants_price)
+tax = (total_price * 0.1)
+print(total_price + tax)

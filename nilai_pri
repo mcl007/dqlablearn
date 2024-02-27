@@ -1,0 +1,34 @@
+#python akan mengerjakan bagian di dalam kurung yg kiri terlebih dahulu
+grade = (3+4) ** 2 + (4+4) / 2 % 4
+grade_1 = (3+4) ** 2
+grade_2 = (4+4) / 2 % 4
+print(grade)
+
+#python akan mengerjakan bagian di dalam kurung yang tersisa lebih dahulu
+grade_a = 5 ** 2 + (4+4) / 2 % 4
+grade_a1 = (4+4) / 2 % 4
+grade_a2 = 5 ** 2
+
+#operator pangkat akan di kerjakan lebih dahulu oleh python
+grade_b = 5 ** 2 + 8 / 2 % 4
+grade_b1 = 5 ** 2
+grade_b2 = 8 / 2 % 4
+
+#python akan menjalankan operator pembagian dikarenakan prioritasnya lebih tinggi dibanding opr tambah
+grade_c = 25 + 8 / 2 % 4
+grade_c1 = 25 + 8
+grade_c2 = 2 % 4
+
+#python akan mengerjakan opr modulus dikarenakan prioritasnya jg lebih tinggi dibanding opr tambah
+grade_d = 25 + 4 % 4
+grade_d1 = 4 % 4
+grade_d2 = 25 + 0
+
+#python akan mengerjakan opr tambah
+grade_e = 25 + 0
+
+#Quiz
+number = (5 % 3 ** 2) + (3 + 2 * 2) * (4 - 2)
+number_1 = (3 + 2 * 2) * (4 - 2)
+number_2 = (5 % 3 ** 2)
+print(number_1 + number_2)

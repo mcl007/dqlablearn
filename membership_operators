@@ -1,0 +1,7 @@
+x = ['Anti', 'David', 'mike']
+y = 'David'
+z = 'Mike'
+print(y in x)
+print(z in x)
+print(y not in x)
+print(z not in x)

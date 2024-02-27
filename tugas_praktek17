@@ -1,0 +1,13 @@
+#fitur .count()
+print(">>> .count()")
+tuple_score = ['Budi', 'Doni', 'Budi', 'Doni', 'Budi', 'Doni', 'Doni']
+score_budi = tuple_score.count('Budi')
+score_doni = tuple_score.count('Doni')
+print(score_budi) #show output 
+print(score_doni) #show output
+
+#fitur .index()
+print(">>> .index()")
+tuple_score = ['Budi', 'Doni', 'Budi', 'Doni', 'Budi', 'Doni', 'Doni']
+index_a = tuple_score.index('Doni') + 1
+print(index_a) #show output

@@ -1,0 +1,6 @@
+#python for loops part1
+list_bill = [50000, 75000, -150000, 125000, 300000, -50000, 200000]
+total_bill = 0
+for bill in list_bill: #for every bill inside variable list_tagihan
+    total_bill += bill #adition bill to total_tagihan
+print(total_bill)

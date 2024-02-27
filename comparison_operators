@@ -1,0 +1,13 @@
+number1 = 33
+number2 = 33
+equal = (number1 == number2) #persamaan
+not_equal = (number1 != number2) #pertidaksamaan
+greater_than = (number1 > number2) #lebih besar dari
+less_than = (number1 < number2) #lebih kecil dari
+greater_than_or_equal_to = (number1 >= number2) #lebih besar atau sama dengan
+less_than_or_equal_to = (number1 <= number2) #lebih kecil atau sama dengan
+print(not_equal)
+print(greater_than)
+print(less_than)
+print(greater_than_or_equal_to)
+print(less_than_or_equal_to)

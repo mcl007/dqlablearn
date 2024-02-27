@@ -1,0 +1,16 @@
+#Nilai Prioritas Operator dalam Python part 1
+total_price = 150000
+discount = 0.3
+tax = 0.1
+pay_price = 1 - discount
+pay_price *= total_price
+tax_price = tax * pay_price
+pay_price += tax_price
+print(pay_price)
+#penyderhanaan kode
+total_price = 150000
+discount = 0.3
+tax = 0.1
+pay_price = (1 - discount) * total_price
+pay_price += pay_price * tax
+print(pay_price)

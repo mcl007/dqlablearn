@@ -1,0 +1,16 @@
+#operator
+x = 10
+addition = x + 4 #tambah
+substraction = x - 3 #kurang
+multiplication = x * 2 #kali
+divided = x / 5 #bagi
+modulus = x % 6 #sisa bagi
+exponentiation = x ** 2 #pangkat
+floor_division = x // 3 #pembagian dengan pembulatan kebawah
+
+print(substraction)
+print(addition)
+print(multiplication)
+print(modulus)
+print(exponentiation)
+print(floor_division)

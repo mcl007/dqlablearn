@@ -1,0 +1,16 @@
+#calculator for count bill for mr yoyo
+warehouseing = {'price_day' : 1000000, 'days' : 15}
+cleansing = {'price_day' : 1500000, 'days': 10}
+Integration = {'price_day' : 2000000, 'days' : 15}
+Transformation = {'price_day' : 2500000, 'days' : 10}
+total = (warehouseing['price_day'] * warehouseing['days']) + (cleansing['price_day'] * cleansing['days']) + (Integration['price_day'] * Integration['days']) + (Transformation['price_day'] * Transformation['days'])
+print('God Morning, you must pay bills amount :')
+print(total) 
+
+subtotal_warehousing = warehouseing['price_day'] * warehouseing['days']
+subtotal_cleansing = cleansing['price_day'] * cleansing['days']
+subtotal_Integration = Integration['price_day'] * Integration['days']
+subtotal_Transformation = Transformation['price_day'] * Transformation['days']
+total_2 = subtotal_warehousing + subtotal_cleansing + subtotal_Integration + subtotal_Transformation
+print(total_2)
+

@@ -1,0 +1,21 @@
+clock = 13
+if clock > 5 and clock < 12: # state 1 jam diantara 5 s/d 12
+    print('Good Morning')
+elif clock > 12 and clock < 17: #state 2 jam diantara 12 s/d 17
+    print('Good Afternoon')
+elif clock > 17 and clock < 19: #state 3 jam diantara 17 s/d 19
+    print('Good Evening')
+else:
+    print('Good Night') #selain kondisi diatas
+
+'''statement 1 13 lebih dari 5 dan kurang dari 12
+   statement 1 jika 13 lebih dari 5 = benar
+   statement 1 jika 13 kurang dari 12 = salah
+   statement 2 jika 13 lebih dari 12 = benar
+   statement 2 jika 13 kurang dari 17 = benar
+   statement 3 jika 13 lebih dari 17 = salah
+   statement 3 jika 13 kurang dari 19 = benar
+   jadi jawabann yang benar yang 2 statenya true / benar
+   jika tidak ada dari 3 statement tersebut maka
+   print out else'''
+    

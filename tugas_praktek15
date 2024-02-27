@@ -1,0 +1,34 @@
+#fitur .append()
+print(">>> Fitur .append()")
+list_food = ['Gado-Gado', 'Fried Chicken', 'Rendang']
+list_food.append('Ketoprak')
+print(list_food)
+
+#fitur .clear()
+print(">>> Fitur .clear()")
+list_food1 = ['Gado-Gado', 'Fried Chicken', 'Rendang']
+list_food1.clear()
+print(list_food)
+
+#fitur .copy()
+print(">>> Fitur .copy()")
+list_food2 = ['Gado-Gado', 'Fried Chicken', 'Rendang']
+list_food3 = list_food2.copy()
+list_food4 = list_food2
+list_food3.append('Opor')
+list_food4.append('Ketoprak')
+
+#fitur .count()
+print(">>> .count()")
+list_score = ['Budi', 'Sud', 'Budi','Budi','Budi','Sud','Sud']
+score_budi = list_score.count('Budi')
+score_sud = list_score.count('Sud')
+print(score_budi)
+print(score_sud)
+
+#fitur .extend()
+print(">>> Fitur .extend()")
+list_menu = ['Gado-Gado', 'Fried Chicken', 'Rendang']
+list_drink = ['Ice Tea', 'Orange Ice', 'Mix Ice']
+list_menu.extend(list_drink)
+print(list_menu)

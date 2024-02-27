@@ -1,0 +1,5 @@
+month_buying = ('January', 'February', 'March', 'April', 'May','June','July','August','September','October','November','December')
+print(month_buying[0])
+print(month_buying[1])
+print(month_buying[-1])
+print(month_buying[-2])

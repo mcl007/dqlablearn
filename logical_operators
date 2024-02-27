@@ -1,0 +1,12 @@
+x = 8
+opt_and = x >= 1 and x <= 10 #dan menerima dua nilai kebenaran dan mengembalikan nilai benar jika keduanya benar
+opt_or = x >= 1 or x <= 4 #atau menerima dua nilai kebenaran dan mengembalikan nilai benar jika salah satu benar
+opt_not = not(x == 8) #negasi menerima sebuah nila kebenaran dan mengembalikan komplemennya
+print(opt_and)
+print(opt_or)
+print(opt_not)
+
+#quiz
+bil1 = 5
+bil2 = bil1 // 2
+hasil = bil1 <= bil2 or bil1 == 2

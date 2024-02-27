@@ -1,0 +1,24 @@
+#python for loops part2
+
+list_bill = [50000, 75000, -150000, 125000, 300000, -50000, 200000]
+
+#for loops with break
+print('for loops with break')
+total_bill_break = 0
+for bill in list_bill:
+    if bill < 0:
+        print('there is minus number inside bill, calculate stop!')
+        break
+    total_bill_break += bill
+print('total bill %d.' % total_bill_break )
+print()
+
+#for loops with continue
+total_bill_continue = 0
+for bill in list_bill:
+    if bill < 0:
+        print('there is minus number inside bill, bill %d skipped!.' %bill)
+        continue
+    total_bill_continue += bill
+print('total bill %d.' % total_bill_continue)
+        
